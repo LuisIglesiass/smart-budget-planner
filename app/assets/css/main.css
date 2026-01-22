@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@import "./container.css";
+
+@theme {
+
+    /* COLORS */
+
+    /*⚪Shades & Base*/
+    --color-background: #F5F5F5;
+    --color-darkComponent: #293445;
+    --color-dark: #031022;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-nordlicht: #FAFCFF;
+
+    /* 🎨 Primary (based on #0b99ff)*/
+    --color-primary: #0b99ff;
+    --color-primaryDarkenOne: #097acc;
+    --color-primaryDarkenTwo: #075b99;
+    --color-primaryLightenOne: #3cadff;
+    --color-primaryLightenTwo: #6dc2ff;
+
+    /* 🎨 Secondary (based on #c0e0ff)*/
+    --color-secondary: #c0e0ff;
+    --color-secondaryDarkenOne: #99ccff;
+    --color-secondaryDarkenTwo: #73b3ff;
+    --color-secondaryLightenOne: #d6ebff;
+    --color-secondaryLightenTwo: #ecf5ff;
+
+    /* ✅Success*/
+    --color-success: #00B26B;
+    --color-successDarkenOne: #00995C;
+    --color-successDarkenTwo: #007A49;
+    --color-successLightenOne: #33CC85;
+    --color-successLightenTwo: #66E0A3;
+
+    /* ⚠️Warning*/
+    --color-warning: #FFBF00;
+    --color-warningDarkenOne: #CC9900;
+    --color-warningDarkenTwo: #996B00;
+    --color-warningLightenOne: #FFD24D;
+    --color-warningLightenTwo: #FFE680;
+
+    /*  ℹ️Info*/
+    --color-info: #1E6FBF;
+    --color-infoDarkenOne: #155A99;
+    --color-infoDarkenTwo: #0E3E66;
+    --color-infoLightenOne: #4D97D9;
+    --color-infoLightenTwo: #80B7E6;
+
+    /* ❌Error*/
+    --color-error: #D93030;
+    --color-errorDarkenOne: #B32424;
+    --color-errorDarkenTwo: #7A1717;
+    --color-errorLightenOne: #E67373;
+    --color-errorLightenTwo: #F2A6A6;
+
+    /* 🔘Grayscale */
+    --color-gray15: #E6E8EB;
+    --color-gray30: #C2C6CC;
+    --color-gray50: #8A9199;
+    --color-gray70: #4A515B;
+
+    --color-hyperblau: #353CEE;
+    --color-deepNavy: #031837;
+
+    /* 📊Rating */
+    --color-ratingA: #387F46;
+    --color-ratingB: #92BA47;
+    --color-ratingC: #FFBD2E;
+    --color-ratingD: #F97316;
+    --color-ratingE: #D54A26;
+
+    /* SPACINGS */
+
+    --spacing-none: 0rem;
+    --spacing-auto: auto;
+    --spacing-small: 0.25rem;
+    --spacing-small2: 0.5rem;
+    --spacing-small3: 0.75rem;
+    --spacing-small4: 1rem;
+    --spacing-small5: 1.25rem;
+    --spacing-medium: 1.5rem;
+    --spacing-medium2: 2rem;
+    --spacing-medium3: 2.5rem;
+    --spacing-medium4: 3rem;
+    --spacing-large: 4rem;
+    --spacing-large2: 5rem;
+    --spacing-large3: 6rem;
+    --spacing-large4: 9.5rem
+}

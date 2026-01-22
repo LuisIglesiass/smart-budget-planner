@@ -1,0 +1,72 @@
+@reference "tailwindcss";
+
+@source not inline('container');
+
+@utility container-wide-desktop {
+	@apply ml-large2 mr-large2;
+}
+
+@utility container-wide-tablet-lg {
+	@apply ml-large mr-large;
+}
+
+@utility container-wide-tablet-sm {
+	@apply ml-small5 mr-small5;
+}
+
+@utility container-wide-mobile {
+	@apply ml-small5 mr-small5;
+}
+
+@utility container-wide {
+	@apply max-md:container-wide-mobile;
+	@apply md:container-wide-tablet-sm;
+	@apply lg:container-wide-tablet-lg;
+	@apply xl:container-wide-desktop;
+}
+
+@utility container-normal-desktop {
+	@apply ml-auto mr-auto w-full max-w-[1040px];
+}
+
+@utility container-normal-tablet-lg {
+	@apply ml-auto mr-auto w-full max-w-[800px];
+}
+
+@utility container-normal-tablet-sm {
+	@apply ml-auto mr-auto w-full max-w-[700px];
+}
+
+@utility container-normal-mobile {
+	@apply ml-small5 mr-small5;
+}
+
+@utility container-normal {
+	@apply max-md:container-normal-mobile;
+	@apply md:container-normal-tablet-sm;
+	@apply lg:container-normal-tablet-lg;
+	@apply xl:container-normal-desktop;
+}
+
+@utility container-narrow-desktop {
+	@apply ml-auto mr-auto w-full max-w-[840px];
+}
+
+@utility container-narrow-tablet-lg {
+	@apply ml-auto mr-auto w-full max-w-[640px];
+}
+
+@utility container-narrow-tablet-sm {
+	@apply ml-auto mr-auto w-full max-w-[560px];
+}
+
+@utility container-narrow-mobile {
+	@apply ml-small5 mr-small5;
+}
+
+@utility container-narrow {
+	@apply max-md:container-narrow-mobile;
+	@apply md:container-narrow-tablet-sm;
+	@apply lg:container-narrow-tablet-lg;
+	@apply xl:container-narrow-desktop;
+}
