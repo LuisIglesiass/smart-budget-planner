@@ -1,0 +1,17 @@
+### NuxtJS template
+# Generated dirs
+dist
+.nuxt
+.nuxt-*
+.output
+.gen
+
+# Node dependencies
+node_modules
+
+# System files
+*.log
+
+# JetBrains IDE (PhpStorm/IntelliJ) - keep project files, ignore personal/tooling settings
+.idea/
+*.iml
