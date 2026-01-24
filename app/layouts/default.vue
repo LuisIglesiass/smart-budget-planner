@@ -2,11 +2,7 @@
 
 <template>
     <div class="min-h-screen flex flex-col bg-white dark:bg-dark text-black dark:text-white">
-        <header class="flex flex-row items-center py-4">
-            <NuxtImg src="/dev/logo.png" alt="Logo" width="100" />
-            <h1 class="text-2xl font-bold text-primary">Smart Budget Planner</h1>
-        </header>
-
+        <Navbar />
         <!-- Page Content -->
         <main class="flex-1">
             <slot />
